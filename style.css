@@ -1,0 +1,228 @@
+body {
+    font-family: sans-serif;
+    min-width: 980px;
+    background: linear-gradient(217deg, rgb(29, 29, 29), rgba(0, 0, 0, 0) 70.71%),
+                linear-gradient(336deg, rgba(121, 29, 29, 0.233), rgba(58, 58, 58, 0.575) 70.71%),
+                linear-gradient(127deg, rgba(56, 56, 56, 0.8), rgb(90, 26, 26) 70.71%);
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #333;
+    height: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 16px -2px rgb(177, 92, 92);
+}
+
+.link-header {
+    padding: 20px;
+    margin: auto 50px;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 0px 4px 6px -2px rgb(118, 118, 118);
+
+    border-radius: 20px;
+}
+
+.link-header-main {
+    padding: 20px;
+    margin: auto 50px;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(187, 81, 81);
+    box-shadow: 0px 4px 6px -2px rgb(118, 118, 118);
+
+    border-radius: 20px;
+
+    transition: 0.4s;
+}
+
+.link-header-main:hover {
+    background-color: rgb(233, 154, 154);
+    box-shadow: 0px 4px 24px 4px rgb(187, 81, 81);
+    
+    transition: 0.4s;
+}
+
+.title-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto 0px auto;
+    padding: 20px 20px;
+
+    height: 60px;
+    width: 500px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    box-shadow: 0px 8px 16px -6px rgb(177, 92, 92);
+
+    border-radius: 20px;
+}
+
+.title-p-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px auto 0px auto;
+    padding: 20px 20px;
+
+    height: 60px;
+    width: 630px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    box-shadow: 0px 8px 16px -6px rgb(177, 92, 92);
+
+    border-radius: 20px;
+}
+
+.cans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    margin: 20px auto;
+
+    width: 540px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    box-shadow: 0px 8px 16px -6px rgb(177, 92, 92);
+
+    border-radius: 20px;
+}
+
+.can {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 320px;
+}
+
+.can:nth-child(4) {
+    border-bottom: none;
+}
+
+
+.works, .tips, .tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    margin: 20px auto;
+
+    width: 540px;
+    
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    box-shadow: 0px 8px 16px -6px rgb(177, 92, 92);
+
+    border-radius: 20px;
+}
+
+.work, .tip, .tool {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 420px;
+}
+
+.work:nth-child(4) {
+    border-bottom: none;
+}
+
+.tip:nth-child(6) {
+    border-bottom: none;
+}
+
+.tool:nth-child(10) {
+    border-bottom: none;
+}
+
+.tool a {
+    color: rgb(187, 81, 81);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.tool a:hover {
+    color: rgb(233, 154, 154);
+    transition: 0.4s;
+}
+
+.mac {
+    position: absolute;
+    z-index:-1;
+    top: 140px;
+    left: 200px;
+    opacity: 0.65;
+}
+
+.socials {
+    margin: 250px 0px 0px 0px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: #333;
+    height: 120px;
+
+    border-radius: 30px;
+    box-shadow: 0px 4px 16px -2px rgb(177, 92, 92);
+}
+
+.social {
+    padding: 10px 10px;
+    margin: 0px 45px 0px 45px;
+    box-shadow: 0px 0px 6px 0px rgb(118, 118, 118);
+    border-radius: 30px;
+
+    transition: 0.4s;
+}
+
+.social:hover {
+    background-color: rgb(41, 41, 41);
+    box-shadow: 0px 0px 6px 4px rgb(177, 92, 92);
+
+    transition: 0.4s;
+}
